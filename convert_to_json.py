@@ -3,7 +3,7 @@ import pandas as pd
 # Adjust the path to your Excel file
 excel_file_path = '/workspaces/frc_simulator/modeling_output_full.xlsx'
 # Specify the sheet name or number if necessary
-sheet_name = 'Sheet1'
+sheet_name = 'default_1'
 
 # Read the Excel file
 df = pd.read_excel(excel_file_path, sheet_name=sheet_name)
