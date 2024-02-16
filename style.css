@@ -1,0 +1,36 @@
+body, html {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    margin: 5px;
+    padding: 10px;
+    width: calc(50% - 22px);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
